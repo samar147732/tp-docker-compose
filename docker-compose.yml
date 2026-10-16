@@ -1,0 +1,6 @@
+
+services:
+  helloworld:
+    image: hello-world:latest
+    volumes:
+      - ./data:/app/data
